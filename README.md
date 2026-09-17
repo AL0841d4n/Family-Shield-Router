@@ -94,7 +94,3 @@ Add an `/etc/init.d` service or a `rc.local` entry that starts `app.py` on route
 - DNS-based filtering blocks a domain network-wide once any device has it blocked (dnsmasq doesn't do per-device DNS answers), so per-device DNS filtering would need per-device DNS redirection as a future improvement.
 - Device data is stored in flat JSON files rather than a database, which keeps it dependency-free on constrained router hardware but doesn't scale past a typical home network.
 - No authentication on the dashboard yet; it's intended for trusted local-network access only.
-
-## License
-
-MIT. Feel free to use or adapt this for your own home network.
